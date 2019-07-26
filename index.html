@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New York Times Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <script src = "assets/css/style.css"></script>
 </head>
 <body>
     <header>
@@ -12,5 +16,31 @@
             New York Times
         </h1>
     </header>
+    <form>
+        <section>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Search Term:</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <small id="emailHelp" class="form-text text-muted"></small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Number of Records to Retrieve</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Start Year</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">End Year</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+        <button type = "reset" class = "btn btn-primary">Clear</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+    <section>
+        
+    </section>
 </body>
 </html>
