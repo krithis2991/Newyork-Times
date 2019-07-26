@@ -2,7 +2,13 @@ h1 {
     margin: 0 auto;
     font-size: 48px;
     text-align: center;
+    margin-bottom: 15px;
+    font-weight: 900;
+    font: "Times New Roman"
 }
 body {
     margin: 20px;
+}
+ul {
+    margin: 10px;
 }

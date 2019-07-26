@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>New York Times Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <link rel="stylesheet" href="assets/css/style.css">
-     <script src = "assets/css/style.css"></script>
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/css/style.css"></script>
 </head>
+
 <body>
     <header>
         <h1>
@@ -18,30 +20,38 @@
     </header>
     <form>
         <section>
-        <div class="form-group">
-          <label for="search-form">Search Term:</label>
-          <input type="search" class="form-control" id ="search-form">
-        </div>
-        <div class="form-group">
-          <label for="recordsForm">Number of Records to Retrieve</label>
-          <input type="search" class="form-control" id="recordsForm">
-        </div>
-        <div class="form-group">
-            <label for="startYear-form">Start Year</label>
-            <input type="search" class="form-control" id="startYear-form">
-          </div>
-          <div class="form-group">
-            <label for="endYear-form">End Year</label>
-            <input type="search" class="form-control" id="endYear-form">
-          </div>
-        <button type = "reset" class = "btn btn-primary">Clear</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+            <div class="form-group">
+                <label for="search-form">Search Term:</label>
+                <input type="search" class="form-control" id="search-form">
+            </div>
+            <div class="form-group">
+                <label for="recordsForm">Number of Records to Retrieve</label>
+                <input type="search" class="form-control" id="recordsForm">
+            </div>
+            <div class="form-group">
+                <label for="startYear-form">Start Year</label>
+                <input type="search" class="form-control" id="startYear-form">
+            </div>
+            <div class="form-group">
+                <label for="endYear-form">End Year</label>
+                <input type="search" class="form-control" id="endYear-form">
+            </div>
+            <button type="reset" class="btn btn-primary">Clear</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
     </section>
     <section>
-        <h2>
+        <h1>
             Top Articles
-        </h2>
+        </h1>
+        <ul class="list-group">
+            <li class="list-group-item">Sample Article</li>
+            <li class="list-group-item">Sample Article</li>
+            <li class="list-group-item">Sample Article</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
     </section>
 </body>
+
 </html>
